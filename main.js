@@ -34,49 +34,12 @@ document.querySelectorAll(".layer")[1].addEventListener("mouseenter", function (
   }, 600);
 })
 
-
-
-// document.querySelectorAll(".layer").forEach(function (val) {
-//   val.querySelector("i").addEventListener("mouseleave", function () {
-//     console.log("leaved: " + val);
-//   })
-// })
-
-
 // loco 4 line code here
 const scroll = new LocomotiveScroll({
   el: document.querySelector('#main'),
   smooth: true
 });
 var timeOut;
-
-// function vaqt() {
-//   var num = 0
-//   var lh1 = document.querySelector("#loader h1")
-//   setInterval(function() {
-//     num += Math.floor(Math.random() * 10)
-//     if (num < 100) {
-//       lh1.innerHTML = num + "%"
-//     }
-//     else {
-//       num = 100
-//       lh1.innerHTML = num + "%"
-//     }
-//   }, 100)
-// }
-// var tl = gsap.timeline();
-// tl.to("#loader h1", {
-//   scale: 1.5,
-//   delay: .5,
-//   duration: 1,
-//   onStart: vaqt()
-// });
-// tl.to("#loader", {
-//   top: "-100vh",
-//   delay: .5,
-//   duration: 1.5
-// });
-
 
 function heroAnim() {
   var tl = gsap.timeline();
@@ -179,14 +142,4 @@ function tym() {
   }, 100)
 }
 tym();
-
-
-document.querySelector("#btt").addEventListener("click", function reload() {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  })
-  console.log("sroll ho jaaa");
-}
-)
 

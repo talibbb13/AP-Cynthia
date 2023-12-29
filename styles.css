@@ -11,23 +11,6 @@ body {
   width: 100%;
 }
 
-/* #loader {
-  height: 100vh;
-  width: 100vw;
-  background-color: royalblue;
-  position: fixed;
-  z-index: 9999999999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#loader h1 {
-  font-size: 75px;
-  font-weight: 900;
-  font-family: cursive;
-} */
-
 #cursor {
   height: 12px;
   width: 12px;
@@ -391,23 +374,4 @@ nav h6:hover {
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection{
   background-color: #fff;
   color: #000;
-}
-
-#btt{
-  background-color: rgb(255, 255, 255);
-  height: 3vw;
-  width: 3vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black !important;
-  font-size: 2vw !important;
-  border-radius: 100%;
-  text-decoration: none !important;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1) .7s;
-}
-
-#btt:hover{
-  background-color: black;
-  color: white !important;
 }
