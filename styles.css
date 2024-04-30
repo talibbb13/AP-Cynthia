@@ -124,6 +124,7 @@ nav h6:hover {
   border-radius: 100px;
   display: inline-block;
   position: relative;
+  cursor: pointer;
 }
 
 #heroFooter h3:first-child::after {
@@ -304,6 +305,7 @@ nav h6:hover {
   font-size: 1.1vw;
   margin-top: 0.7vw;
   display: inline-block;
+  cursor: pointer;
 }
 
 #subs h3:hover {
@@ -343,6 +345,7 @@ nav h6:hover {
   align-items: center;
   gap: 3px;
   position: relative;
+  cursor: pointer;
 }
 
 #right a::after {

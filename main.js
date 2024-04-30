@@ -96,7 +96,7 @@ function screwing() {
 document.querySelectorAll(".elem").forEach(function (elem) {
   var rot = 0;
   var rotDiff = 0;
-  elem.addEventListener("mouseleave", function (dets) {
+  elem.addEventListener("mouseleave", function () {
     gsap.to(elem.querySelector("img"), {
       opacity: 0,
       ease: Power4,
@@ -116,7 +116,6 @@ document.querySelectorAll(".elem").forEach(function (elem) {
       rotate: gsap.utils.clamp(-20, 20, rotDiff * .3)
     })
   })
-
 })
 
 
@@ -133,7 +132,6 @@ cursorMove()
 
 function tym() {
   setInterval(function () {
-    var tymCon = document.querySelector("#tym");
     var now = new Date();
     var hours = now.getHours() % 12 || 12;
     var min = now.getMinutes();
