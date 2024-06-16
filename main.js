@@ -130,14 +130,14 @@ cursorMove()
 
 
 
-function tym() {
+function time() {
   setInterval(function () {
     var now = new Date();
     var hours = now.getHours() % 12 || 12;
     var min = now.getMinutes();
     var sec = now.getSeconds();
     document.querySelector("#tym").innerHTML = `${hours} : ${min}: ${sec}`
-  }, 100)
+  }, 1000)
 }
-tym();
+time();
 
